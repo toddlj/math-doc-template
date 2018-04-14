@@ -7,8 +7,7 @@
 
 % Language and writing
 \usepackage[english]{babel}
-\usepackage{mathptmx}
-\usepackage{microtype}
+\usepackage{times}
 
 % Paragraph and whitespace
 \frenchspacing
@@ -16,7 +15,7 @@
 %\linespread{1.3} % for 1.5 linespacing
 
 % Links
-\usepackage[hidelinks]{hyperref}
+\usepackage[hidelinks, pdfusetitle]{hyperref}
 \usepackage{url}
 
 \let\orighref\href
@@ -65,7 +64,6 @@
 \newtheorem{proposition}[theorem]{Proposition}
 \newtheorem{example}[theorem]{Example}
 
-
 % Common math operators
 \newcommand{\GL}[1]{\operatorname{GL}\left( #1 \right )}
 \newcommand{\Hom}[1]{\operatorname{Hom}\left( #1 \right )}
@@ -73,7 +71,6 @@
 \newcommand{\Tr}[1]{\operatorname{Tr}\left( #1 \right )}
 \newcommand{\Id}{\mathrm{Id}}
 \newcommand{\codim}{\operatorname{codim}}
-
 
 % Common \mathbb letters
 \newcommand{\bbA}{\mathbb{A}}
@@ -84,26 +81,20 @@
 \newcommand{\bbR}{\mathbb{R}}
 \newcommand{\bbZ}{\mathbb{Z}}
 
-
 % Common \mathfrak letters
 \newcommand{\frX}{\mathfrak{X}}
 
 % Document Information
-\title{
-    Title goes here
-}
-\author{
-    Todd Liebenschutz-Jones \\
-    University of Oxford
-}
+\usepackage{titling}
+\title{Title goes here}
+\author{Todd Liebenschutz-Jones}
 \date{\today}
-
 
 \begin{document}
 
 % Document title and copyright information
 \maketitle
-\unmarkedfntext{\copyright \ \the\year \ Todd Liebenschutz-Jones, licensed under \href{https://creativecommons.org/licenses/by/4.0/}{CC-BY 4.0}.}
+\unmarkedfntext{\copyright \ \the\year \ \theauthor, licensed under \href{https://creativecommons.org/licenses/by/4.0/}{CC-BY 4.0}.}
 
 %\begin{abstract}
 %\end{abstract}
