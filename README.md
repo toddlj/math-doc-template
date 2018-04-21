@@ -2,7 +2,7 @@
 
 This repository contains a template LaTeX document, intended for mathematics notes, reports and articles.
 
-![Sample document](https://github.com/toddlj/math-doc-template/blob/master/examples/mathematics-report.png Sample document)
+![Sample document](https://raw.githubusercontent.com/toddlj/math-doc-template/master/examples/mathematics-report.png Sample document)
 
 *Sample document from [project on Atiyah-Singer Index Theorem](https://www.toddljones.me/assets/files/atiyah-singer-index.pdf)*
 
