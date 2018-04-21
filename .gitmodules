@@ -1,0 +1,6 @@
+[submodule "latex-default-document"]
+	path = latex-default-document
+	url = https://github.com/toddlj/latex-default-document.git
+[submodule "latex-math-commands"]
+	path = latex-math-commands
+	url = https://github.com/toddlj/latex-math-commands.git
